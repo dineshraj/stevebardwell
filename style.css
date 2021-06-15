@@ -1,0 +1,43 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  background-color: #262525;
+  color: #484747;
+  font-size: 1.3em;
+  background-image: url('img/steve.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+h1 {
+  text-shadow: 1px 0 0 #1e1e1a, -1px 0 0 #1e1e1a, 0 1px 0 #1e1e1a, 0 -1px 0 #1e1e1a, 1px 1px #1e1e1a, -1px -1px 0 #1e1e1a, 1px -1px 0 #1e1e1a, -1px 1px 0 #1e1e1a;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+  position: absolute;
+  bottom: 0;
+  color: #c4c4c4;
+}
+
+@media only screen and (min-width: 30em) {
+  body {
+    font-size: 2em;
+  }
+}
+
+@media only screen and (min-width: 43em) {
+  body {
+    font-size: 2.1em;
+  }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) { 
+  body {
+    background-image: url('img/steve_hi.jpg');
+  }
+}
