@@ -1,11 +1,3 @@
-/* <h1>I'm Stephen Bardwell
-<? date_default_timezone_set('UTC');
-   if (date('d m') === '10 01') : ?>
-    <span class="text">and it is my birthday!</span></h1>
-<? else : ?>
-    <span>and <?= $quoteHandler->getQuote(); ?></span></h1>
-<? endif; ?> */
-
 var quotesArray = [
   'I drive a hard bargain',
   'I know a guy down the market',
@@ -22,7 +14,7 @@ var quotesArray = [
   'stop eating my Fruit & Fibre!',
   'stop buying me Fruit and Fibre!'
 ]
-var text = 'I\'m Stephen Bardwell';
+var text = 'I\'m Stephen Bardwell and';
 
 function isBirthday() {
   var bardsBirthday = new Date('1968-01-10');
