@@ -26,7 +26,7 @@ function isBirthday() {
   );
 }
 
-const quote = isBirthday() ? 'and it is my birthday!' : quotesArray[Math.floor(Math.random() * quotesArray.length)];
+var quote = isBirthday() ? 'and it is my birthday!' : quotesArray[Math.floor(Math.random() * quotesArray.length)];
 
 var fullText = text + ' ' + quote;
 
